@@ -1,0 +1,145 @@
+.banner-bg {
+  width: 100%;
+  background: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.banner-container {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+}
+
+.restaurant-image {
+  width: 170px;
+  height: 170px;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-image {
+    width: 280px;
+    height: 280px;
+    border-radius: 8px;
+  }
+}
+
+.restaurant-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.restaurant-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 48px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-name {
+    font-size: 30px;
+  }
+}
+
+.restaurant-cuisine {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-cuisine {
+    font-size: 16px;
+  }
+}
+
+.restaurant-location {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-location {
+    font-size: 16px;
+  }
+}
+
+.rating-rate-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.rating {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+.sub-text {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #e2e8f0;
+}
+
+.separation-line {
+  width: 40px;
+  height: 0px;
+  border: 1px solid #e2e8f0;
+  transform: rotate(90deg);
+  margin: 0px;
+}
+.food-items-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.restaurant-details-loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .restaurant-cuisine {
+    margin: 0px;
+  }
+}
